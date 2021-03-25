@@ -12,6 +12,7 @@ typedef int (*pf)(int *, int);
 
 typedef bool (*pfunc) (const string &, const string &);
 
+
 bool funcPointerTest(bool (*funcTest) (const string &, const string &))
 //bool funcPointerTest(pfunc funcTest)
 {
