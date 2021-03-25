@@ -1,5 +1,7 @@
 ##### 函数指针
 
+> 指向函数的指针
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -9,7 +11,6 @@ using namespace std;
 typedef int (*pf)(int *, int);
 
 typedef bool (*pfunc) (const string &, const string &);
-
 
 bool funcPointerTest(bool (*funcTest) (const string &, const string &))
 //bool funcPointerTest(pfunc funcTest)
